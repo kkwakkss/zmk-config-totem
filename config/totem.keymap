@@ -321,20 +321,20 @@
         f_grave_layer {
             label = "`\f & navi";
             bindings = <
-        &kp GRAVE             &kp F2     &kp F3             &kp F4           &kp F5       &none   &kp HOME        &kp UP_ARROW   &kp END      &ht LC(HOME) PG_UP
-        &kp NON_US_BACKSLASH  &kp LC(S)  &kp LC(PAGE_DOWN)  &kp LC(PAGE_UP)  &none        &none   &kp LEFT_ARROW  &kp DOWN       &kp RIGHT    &ht LC(END) PAGE_DOWN
-&trans  &kp LC(Z)             &kp LC(X)  &kp LC(C)          &kp LC(V)        &kp LC(B)    &none   &kp LS(HOME)    &kp LS(ENTER)  &kp LS(END)  &none                  &trans
+        &kp GRAVE             &kp F2     &kp F3             &kp F4           &kp F5       &none   &kp HOME        &kp UP_ARROW   &kp END    &ht LC(HOME) PG_UP
+        &kp NON_US_BACKSLASH  &kp LC(S)  &kp LC(PAGE_DOWN)  &kp LC(PAGE_UP)  &none        &none   &kp LEFT_ARROW  &kp DOWN       &kp RIGHT  &ht LC(END) PAGE_DOWN
+&trans  &kp LC(Z)             &kp LC(X)  &kp LC(C)          &kp LC(V)        &kp LC(B)    &none   &none           &kp LS(ENTER)  &none      &none                  &trans
                                          &trans             &trans           &trans       &trans  &trans          &trans
             >;
         };
 
         num_navi_layer {
-            label = "no. & navi";
+            label = "num, bra, navi";
             bindings = <
-        &ht MINUS PLUS      &kp N8  &kp N7  &kp N9   &ht LESS_THAN LEFT_PARENTHESIS    &ht RIGHT_PARENTHESIS GREATER_THAN  &kp HOME    &kp UP         &kp END    &ht LC(HOME) PG_UP
-        &ht SLASH ASTERISK  &kp N4  &kp N5  &kp N6   &ht LEFT_BRACE LEFT_BRACKET       &ht RIGHT_BRACKET RIGHT_BRACE       &kp LEFT    &kp DOWN       &kp RIGHT  &ht LC(END) PAGE_DOWN
-&trans  &kp EQUAL           &kp N1  &kp N2  &kp N3   &kp COMMA                         &trans                              &trans      &kp LS(ENTER)  &trans     &to 0                  &trans
-                                    &kp N0  &kp DOT  &trans                            &trans                              &space_to0  &trans
+        &ht MINUS PLUS      &ht AMPERSAND NUMBER_7    &ht ASTERISK NUMBER_8           &ht LEFT_PARENTHESIS NUMBER_9  &ht LESS_THAN LEFT_PARENTHESIS    &ht GREATER_THAN RIGHT_PARENTHESIS  &kp HOME    &kp UP         &kp END    &ht LC(HOME) PG_UP
+        &ht SLASH ASTERISK  &ht DOLLAR LC(NUMBER_4)   &ht PERCENT NUMBER_5            &ht CARET NUMBER_6             &ht LEFT_BRACE LEFT_BRACKET       &ht RIGHT_BRACE RIGHT_BRACKET       &kp LEFT    &kp DOWN       &kp RIGHT  &ht LC(END) PAGE_DOWN
+&trans  &kp EQUAL           &ht EXCLAMATION NUMBER_1  &ht AT_SIGN NUMBER_2            &ht HASH NUMBER_3              &kp COMMA                         &kp UNDERSCORE                      &trans      &kp LS(ENTER)  &trans     &to 0                  &trans
+                                                      &ht RIGHT_PARENTHESIS NUMBER_0  &kp DOT                        &trans                            &trans                              &space_to0  &trans
             >;
         };
 
