@@ -199,19 +199,19 @@
         enter_r {
             bindings = <&kp ENTER>;
             key-positions = <16 17>;
-            layers = <QWERTY>;
+            layers = <0>;
         };
 
         enter_l {
             bindings = <&kp ENTER>;
             key-positions = <12 13>;
-            layers = <QWERTY>;
+            layers = <0>;
         };
 
         del_r {
             bindings = <&kp DELETE>;
             key-positions = <7 8>;
-            layers = <QWERTY>;
+            layers = <0>;
         };
 
         del_l {
@@ -223,7 +223,7 @@
         bsp_r {
             bindings = <&kp BACKSPACE>;
             key-positions = <6 7>;
-            layers = <QWERTY>;
+            layers = <0>;
         };
 
         bsp_l {
@@ -265,25 +265,25 @@
         shift_home {
             bindings = <&kp LS(HOME)>;
             key-positions = <6 7>;
-            layers = <NAV>;
+            layers = <2>;
         };
 
         shift_end {
             bindings = <&kp LS(END)>;
             key-positions = <7 8>;
-            layers = <NAV>;
+            layers = <2>;
         };
 
         ctrl_left {
             bindings = <&kp LC(LEFT_ARROW)>;
             key-positions = <16 17>;
-            layers = <NAV>;
+            layers = <2>;
         };
 
         ctrl_right {
             bindings = <&kp LC(RIGHT)>;
             key-positions = <17 18>;
-            layers = <NAV>;
+            layers = <2>;
         };
 
         space_combo {
@@ -295,13 +295,13 @@
         tab_combo {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
-            layers = <QWERTY>;
+            layers = <0 2>;
         };
 
         esc2_combo {
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
-            layers = <QWERTY>;
+            layers = <0 2>;
         };
     };
 
