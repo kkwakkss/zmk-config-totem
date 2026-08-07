@@ -332,7 +332,7 @@
             label = "num, bra, navi";
             bindings = <
         &ht MINUS PLUS      &ht AMPERSAND NUMBER_7    &ht ASTERISK NUMBER_8           &ht LEFT_PARENTHESIS NUMBER_9  &ht LESS_THAN LEFT_PARENTHESIS    &ht GREATER_THAN RIGHT_PARENTHESIS  &kp HOME    &kp UP         &kp END    &ht LC(HOME) PG_UP
-        &ht SLASH ASTERISK  &ht DOLLAR LC(NUMBER_4)   &ht PERCENT NUMBER_5            &ht CARET NUMBER_6             &ht LEFT_BRACE LEFT_BRACKET       &ht RIGHT_BRACE RIGHT_BRACKET       &kp LEFT    &kp DOWN       &kp RIGHT  &ht LC(END) PAGE_DOWN
+        &ht SLASH ASTERISK  &ht DOLLAR NUMBER_4       &ht PERCENT NUMBER_5            &ht CARET NUMBER_6             &ht LEFT_BRACE LEFT_BRACKET       &ht RIGHT_BRACE RIGHT_BRACKET       &kp LEFT    &kp DOWN       &kp RIGHT  &ht LC(END) PAGE_DOWN
 &trans  &kp EQUAL           &ht EXCLAMATION NUMBER_1  &ht AT_SIGN NUMBER_2            &ht HASH NUMBER_3              &kp COMMA                         &kp UNDERSCORE                      &trans      &kp LS(ENTER)  &trans     &to 0                  &trans
                                                       &ht RIGHT_PARENTHESIS NUMBER_0  &kp DOT                        &trans                            &trans                              &space_to0  &trans
             >;
